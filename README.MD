@@ -1,7 +1,7 @@
 # Gym Membership MySQL Schema Documentation
 
 ## Overview
-This document describes the structure and usage of our `Membership.sql` file, which defines the database schema and CRUD operations for a gym membership management system.
+This project describes the structure and usage of our `Membership.sql` file, which defines the database schema and CRUD operations for a gym membership management system.
 
 ## Technologies Used
 - **MySQL**: The schema and queries are written for MySQL.
