@@ -47,7 +47,7 @@ The `Memberships` table is designed to store information about gym members and t
 ## Example Usage
 ### Add a new membership
 INSERT INTO Memberships (UserID, FullName, Email, Phone, MembershipType, StartDate, EndDate, Status)
-VALUES (1, 'John Doe', 'john@example.com', '1234567890', 'Premium', '2025-01-01', '2025-12-31', 'Active');
+VALUES (1, 'Daisy Dolphine', 'Daisy@example.com', '1234567890', 'Premium', '2025-01-01', '2025-12-31', 'Active');
 
 ### Get a membership by ID
 SELECT * FROM Memberships WHERE MembershipID = 1;
