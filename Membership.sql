@@ -20,7 +20,6 @@ CREATE TABLE Memberships (
 CREATE INDEX IDX_UserID ON Memberships(UserID);
 
 -- CRUD Operations
-
 -- CREATE: Add a new membership
 INSERT INTO Memberships (UserID, FullName, Email, Phone, MembershipType, StartDate, EndDate, Status)
 VALUES (@UserID, @FullName, @Email, @Phone, @MembershipType, @StartDate, @EndDate, @Status);

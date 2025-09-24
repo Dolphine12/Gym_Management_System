@@ -1,7 +1,17 @@
 # Gym Membership MySQL Schema Documentation
 
-## Overview
 This project describes the structure and usage of our `Membership.sql` file, which defines the database schema and CRUD operations for a gym membership management system.
+
+Additionally, the project includes a `flask_app.py` file that provides a RESTful API interface to interact with the MySQL database. The Flask application exposes endpoints for creating, reading, updating, and deleting membership records, enabling integration with web or mobile frontends.
+
+### Key Features of `flask_app.py`
+- **API Endpoints**: Implements endpoints for all CRUD operations on the `Memberships` table.
+- **Database Connectivity**: Connects to the MySQL database using appropriate credentials and handles queries securely.
+- **JSON Responses**: Returns data and status messages in JSON format for easy consumption by clients.
+- **Error Handling**: Includes basic error handling for invalid requests and database errors.
+- **Extensibility**: Designed to be easily extended with authentication, validation, or additional business logic as needed.
+
+Refer to the `flask_app.py` source code for detailed implementation and usage instructions.
 
 ## Technologies Used
 - **MySQL**: The schema and queries are written for MySQL.
